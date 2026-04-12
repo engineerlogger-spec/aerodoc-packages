@@ -12,17 +12,24 @@
           "database": {
             "kind": "database",
             "relative_path": "aerodoc_package.db",
-            "sha256": "97c8d07c3423f5fcf07d526deb024895b5cab0568c1af09942f93b116f3b9457",
-            "size_bytes": 455225344
+            "sha256": "48fcca1e8859fd11e61d6578d2b01156a7fc2cfcbda9ad5ab51938803a8a268b",
+            "size_bytes": 489086976
           },
           "docs": {
             "docs_manifest_hash": "a407574397124406b15f8d07fc37d05a9218ee7af3e9daa009b56d466ec756f0",
             "file_count": 707,
             "kind": "docs",
             "manual_count": 6
+          },
+          "figure_assets": {
+            "content_hash": "22eaeace37aec416ab71482b855a3fba86f1d382b84da1053c2000b4f1025387",
+            "file_count": 33797,
+            "kind": "figure_assets",
+            "relative_path": "figure_assets",
+            "size_bytes": 6414447738
           }
         },
-        "generated_at_utc": "2026-04-12T10:51:09+00:00",
+        "generated_at_utc": "2026-04-12T15:41:30+00:00",
         "manifest": {
           "aircraft_code": "B737",
           "base_full_version": "2026.04.11.b737.nonllm.3",
@@ -33,65 +40,72 @@
             "database": {
               "kind": "database",
               "relative_path": "aerodoc_package.db",
-              "sha256": "97c8d07c3423f5fcf07d526deb024895b5cab0568c1af09942f93b116f3b9457",
-              "size_bytes": 455225344
+              "sha256": "48fcca1e8859fd11e61d6578d2b01156a7fc2cfcbda9ad5ab51938803a8a268b",
+              "size_bytes": 489086976
             },
             "docs": {
               "docs_manifest_hash": "a407574397124406b15f8d07fc37d05a9218ee7af3e9daa009b56d466ec756f0",
               "file_count": 707,
               "kind": "docs",
               "manual_count": 6
+            },
+            "figure_assets": {
+              "content_hash": "22eaeace37aec416ab71482b855a3fba86f1d382b84da1053c2000b4f1025387",
+              "file_count": 33797,
+              "kind": "figure_assets",
+              "relative_path": "figure_assets",
+              "size_bytes": 6414447738
             }
           },
-          "generated_at_utc": "2026-04-12T10:51:09+00:00",
-          "manifest_updated_at_utc": "2026-04-12T15:02:23+00:00",
+          "generated_at_utc": "2026-04-12T15:41:30+00:00",
+          "manifest_updated_at_utc": "2026-04-12T21:00:31+00:00",
           "operator_id": "demo",
           "operator_name": "B737",
           "package_family_id": "demo__b737",
           "package_id": "demo__b737",
-          "package_version": "2026.04.12.b737.dbfix.1",
+          "package_version": "2026.04.12.b737.aipcfix.1",
           "release_asset_max_bytes": 2040109465,
           "release_assets": {
             "database": [
               {
                 "archive_name": "database.aerodoc_package.db",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.12.b737.dbfix.1/database.aerodoc_package.db",
+                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.12.b737.aipcfix.1/database.aerodoc_package.db",
                 "file_count": 1,
                 "relative_path": "database.aerodoc_package.db",
-                "sha256": "97c8d07c3423f5fcf07d526deb024895b5cab0568c1af09942f93b116f3b9457",
-                "size_bytes": 455225344
+                "sha256": "48fcca1e8859fd11e61d6578d2b01156a7fc2cfcbda9ad5ab51938803a8a268b",
+                "size_bytes": 489086976
               }
             ]
           },
           "release_repository": "engineerlogger-spec/aerodoc-packages",
           "release_scope": "partial",
-          "release_tag": "2026.04.12.b737.dbfix.1",
+          "release_tag": "2026.04.12.b737.aipcfix.1",
           "update_manifest_version": 2
         },
-        "manifest_path": "2026.04.12.b737.dbfix.1/aerodoc_package.json",
-        "manifest_updated_at_utc": "2026-04-12T15:02:23+00:00",
-        "manifest_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.12.b737.dbfix.1/aerodoc_package.json",
+        "manifest_path": "2026.04.12.b737.aipcfix.1/aerodoc_package.json",
+        "manifest_updated_at_utc": "2026-04-12T21:00:31+00:00",
+        "manifest_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.12.b737.aipcfix.1/aerodoc_package.json",
         "operator_id": "demo",
         "operator_name": "B737",
         "package_family_id": "demo__b737",
         "package_id": "demo__b737",
-        "package_version": "2026.04.12.b737.dbfix.1",
+        "package_version": "2026.04.12.b737.aipcfix.1",
         "release_asset_max_bytes": 2040109465,
         "release_assets": {
           "database": [
             {
               "archive_name": "database.aerodoc_package.db",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.12.b737.dbfix.1/database.aerodoc_package.db",
+              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.12.b737.aipcfix.1/database.aerodoc_package.db",
               "file_count": 1,
               "relative_path": "database.aerodoc_package.db",
-              "sha256": "97c8d07c3423f5fcf07d526deb024895b5cab0568c1af09942f93b116f3b9457",
-              "size_bytes": 455225344
+              "sha256": "48fcca1e8859fd11e61d6578d2b01156a7fc2cfcbda9ad5ab51938803a8a268b",
+              "size_bytes": 489086976
             }
           ]
         },
         "release_repository": "engineerlogger-spec/aerodoc-packages",
         "release_scope": "partial",
-        "release_tag": "2026.04.12.b737.dbfix.1",
+        "release_tag": "2026.04.12.b737.aipcfix.1",
         "update_manifest_version": 2
       },
       "latest_full": {
@@ -426,6 +440,6 @@
     }
   ],
   "family_count": 1,
-  "generated_at_utc": "2026-04-12T15:02:57+00:00",
+  "generated_at_utc": "2026-04-12T21:01:34+00:00",
   "update_catalog_version": 2
 }
