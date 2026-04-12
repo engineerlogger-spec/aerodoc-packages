@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-12T01:23:15+00:00",
+  "generated_at_utc": "2026-04-12T01:27:59+00:00",
   "package_count": 2,
   "packages": [
     {
@@ -215,7 +215,7 @@
           }
         },
         "generated_at_utc": "2026-04-12T01:19:19+00:00",
-        "manifest_updated_at_utc": "2026-04-12T01:22:38+00:00",
+        "manifest_updated_at_utc": "2026-04-12T01:27:21+00:00",
         "operator_id": "demo",
         "operator_name": "B737",
         "package_id": "demo__b737__2026.04.12.b737.dbtest.1",
