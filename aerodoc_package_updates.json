@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-12T01:27:59+00:00",
+  "generated_at_utc": "2026-04-12T01:43:19+00:00",
   "package_count": 2,
   "packages": [
     {
@@ -44,7 +44,7 @@
         "manifest_updated_at_utc": "2026-04-11T19:38:25+00:00",
         "operator_id": "demo",
         "operator_name": "B737",
-        "package_id": "demo__b737__2026.04.11.b737.nonllm.3",
+        "package_id": "demo__b737",
         "package_version": "2026.04.11.b737.nonllm.3",
         "release_asset_max_bytes": 2040109465,
         "release_assets": {
@@ -176,7 +176,7 @@
       "manifest_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.11.b737.nonllm.3/aerodoc_package.json",
       "operator_id": "demo",
       "operator_name": "B737",
-      "package_id": "demo__b737__2026.04.11.b737.nonllm.3",
+      "package_id": "demo__b737",
       "package_version": "2026.04.11.b737.nonllm.3",
       "release_scope": "full"
     },
@@ -197,7 +197,7 @@
           "database": {
             "kind": "database",
             "relative_path": "aerodoc_package.db",
-            "sha256": "176f113eb23a540b0bec876c425e199f50e207a8219888536e5fbaf3decaaa2b",
+            "sha256": "c827bc5f603e422154f02009012917d6ea80c78fdac69c134ab0b9c8584785fd",
             "size_bytes": 443592704
           },
           "docs": {
@@ -215,10 +215,10 @@
           }
         },
         "generated_at_utc": "2026-04-12T01:19:19+00:00",
-        "manifest_updated_at_utc": "2026-04-12T01:27:21+00:00",
+        "manifest_updated_at_utc": "2026-04-12T01:42:38+00:00",
         "operator_id": "demo",
         "operator_name": "B737",
-        "package_id": "demo__b737__2026.04.12.b737.dbtest.1",
+        "package_id": "demo__b737",
         "package_version": "2026.04.12.b737.dbtest.1",
         "release_asset_max_bytes": 2040109465,
         "release_assets": {
@@ -242,7 +242,7 @@
       "manifest_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.12.b737.dbtest.1/aerodoc_package.json",
       "operator_id": "demo",
       "operator_name": "B737",
-      "package_id": "demo__b737__2026.04.12.b737.dbtest.1",
+      "package_id": "demo__b737",
       "package_version": "2026.04.12.b737.dbtest.1",
       "release_scope": "partial"
     }
