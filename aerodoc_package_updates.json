@@ -1,431 +1,121 @@
 {
+  "update_catalog_version": 3,
+  "generated_at_utc": "2026-05-09T16:44:26.7158094Z",
+  "family_count": 1,
   "families": [
     {
-      "aircraft_code": "B737",
-      "latest_database_patch": {
-        "aircraft_code": "B737",
-        "base_full_version": "2026.04.13.b737.cleanregen.1",
-        "changed_components": [
-          "database"
-        ],
+      "package_family_id": "air_algerie_b737_89",
+      "operator_id": "air_algerie",
+      "operator_name": "Air Algerie",
+      "aircraft_code": "B737-8/9",
+      "latest_schema_v6_database": {
+        "update_manifest_version": 3,
+        "package_kind": "db_only_schema_v6",
+        "package_family_id": "air_algerie_b737_89",
+        "package_id": "air_algerie_b737_89_schema_v6",
+        "package_version": "2026.05.08.b737-89.schema-v6.app-ready.1",
+        "operator_id": "air_algerie",
+        "operator_name": "Air Algerie",
+        "aircraft_code": "B737-8/9",
+        "release_scope": "database",
+        "release_repository": "engineerlogger-spec/aerodoc-packages",
+        "release_tag": "2026.05.08.b737-89.schema-v6.app-ready.1",
+        "generated_at_utc": "2026-05-09T16:44:26.7158094Z",
+        "db_created_at_local": "2026-05-08T23:23:51",
         "components": {
           "database": {
-            "kind": "database",
-            "relative_path": "aerodoc_package.db",
-            "sha256": "8e103ada7660d7b274cff1d7eabf7aa7757f2abd0f675f6a40ea14f31953c7a0",
-            "size_bytes": 506986496
-          },
-          "docs": {
-            "docs_manifest_hash": "a407574397124406b15f8d07fc37d05a9218ee7af3e9daa009b56d466ec756f0",
-            "file_count": 707,
-            "kind": "docs",
-            "manual_count": 6
+            "kind": "database_archive",
+            "archive_name": "database.schema_v6_app_ready_full.zip",
+            "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/database.schema_v6_app_ready_full.zip",
+            "relative_path": "database.schema_v6_app_ready_full.zip",
+            "sha256": "163f320a2a5f593d641e6216d3e2cf0246b9609e34e5b6818b44fa4029d4dea3",
+            "size_bytes": 247167805,
+            "database_file": "schema_v6_app_ready_full.db",
+            "database_sha256": "83045504bdd4a748055b5f02bb67ce94fed3e046940adbcb4dd9a685cfb957ed",
+            "database_size_bytes": 2068058112,
+            "schema_kind": "db_only_schema_v6",
+            "schema_version": 6,
+            "quick_check": "ok",
+            "search_backend": "basic_sqlite",
+            "fts5_enabled": false
           }
         },
-        "generated_at_utc": "2026-04-13T21:02:23+00:00",
-        "manifest": {
-          "aircraft_code": "B737",
-          "base_full_version": "2026.04.13.b737.cleanregen.1",
-          "changed_components": [
-            "database"
-          ],
-          "components": {
-            "database": {
-              "kind": "database",
-              "relative_path": "aerodoc_package.db",
-              "sha256": "8e103ada7660d7b274cff1d7eabf7aa7757f2abd0f675f6a40ea14f31953c7a0",
-              "size_bytes": 506986496
-            },
-            "docs": {
-              "docs_manifest_hash": "a407574397124406b15f8d07fc37d05a9218ee7af3e9daa009b56d466ec756f0",
-              "file_count": 707,
-              "kind": "docs",
-              "manual_count": 6
-            }
-          },
-          "generated_at_utc": "2026-04-13T21:02:23+00:00",
-          "manifest_updated_at_utc": "2026-04-13T21:03:45+00:00",
-          "operator_id": "demo",
-          "operator_name": "B737",
-          "package_family_id": "demo__b737",
-          "package_id": "demo__b737",
-          "package_version": "2026.04.13.b737.cleanregen.1-wiringheaders.1",
-          "release_asset_max_bytes": 2040109465,
-          "release_assets": {
-            "database": [
-              {
-                "archive_name": "database.aerodoc_package.db",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1-wiringheaders.1/database.aerodoc_package.db",
-                "file_count": 1,
-                "relative_path": "database.aerodoc_package.db",
-                "sha256": "8e103ada7660d7b274cff1d7eabf7aa7757f2abd0f675f6a40ea14f31953c7a0",
-                "size_bytes": 506986496
-              }
-            ]
-          },
-          "release_repository": "engineerlogger-spec/aerodoc-packages",
-          "release_scope": "partial",
-          "release_tag": "2026.04.13.b737.cleanregen.1-wiringheaders.1",
-          "update_manifest_version": 2
-        },
-        "manifest_path": "2026.04.13.b737.cleanregen.1-wiringheaders.1/aerodoc_package.json",
-        "manifest_updated_at_utc": "2026-04-13T21:03:45+00:00",
-        "manifest_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1-wiringheaders.1/aerodoc_package.json",
-        "operator_id": "demo",
-        "operator_name": "B737",
-        "package_family_id": "demo__b737",
-        "package_id": "demo__b737",
-        "package_version": "2026.04.13.b737.cleanregen.1-wiringheaders.1",
-        "release_asset_max_bytes": 2040109465,
         "release_assets": {
           "database": [
             {
-              "archive_name": "database.aerodoc_package.db",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1-wiringheaders.1/database.aerodoc_package.db",
-              "file_count": 1,
-              "relative_path": "database.aerodoc_package.db",
-              "sha256": "8e103ada7660d7b274cff1d7eabf7aa7757f2abd0f675f6a40ea14f31953c7a0",
-              "size_bytes": 506986496
+              "kind": "database_archive",
+              "archive_name": "database.schema_v6_app_ready_full.zip",
+              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/database.schema_v6_app_ready_full.zip",
+              "relative_path": "database.schema_v6_app_ready_full.zip",
+              "sha256": "163f320a2a5f593d641e6216d3e2cf0246b9609e34e5b6818b44fa4029d4dea3",
+              "size_bytes": 247167805,
+              "database_file": "schema_v6_app_ready_full.db",
+              "database_sha256": "83045504bdd4a748055b5f02bb67ce94fed3e046940adbcb4dd9a685cfb957ed",
+              "database_size_bytes": 2068058112,
+              "schema_kind": "db_only_schema_v6",
+              "schema_version": 6,
+              "quick_check": "ok",
+              "search_backend": "basic_sqlite",
+              "fts5_enabled": false
             }
           ]
-        },
-        "release_repository": "engineerlogger-spec/aerodoc-packages",
-        "release_scope": "partial",
-        "release_tag": "2026.04.13.b737.cleanregen.1-wiringheaders.1",
-        "update_manifest_version": 2
+        }
       },
-      "latest_full": {
-        "aircraft_code": "B737",
-        "base_full_version": "2026.04.13.b737.cleanregen.1",
-        "changed_components": [
-          "database",
-          "docs",
-          "figure_assets"
-        ],
+      "latest_database": {
+        "update_manifest_version": 3,
+        "package_kind": "db_only_schema_v6",
+        "package_family_id": "air_algerie_b737_89",
+        "package_id": "air_algerie_b737_89_schema_v6",
+        "package_version": "2026.05.08.b737-89.schema-v6.app-ready.1",
+        "operator_id": "air_algerie",
+        "operator_name": "Air Algerie",
+        "aircraft_code": "B737-8/9",
+        "release_scope": "database",
+        "release_repository": "engineerlogger-spec/aerodoc-packages",
+        "release_tag": "2026.05.08.b737-89.schema-v6.app-ready.1",
+        "generated_at_utc": "2026-05-09T16:44:26.7158094Z",
+        "db_created_at_local": "2026-05-08T23:23:51",
         "components": {
           "database": {
-            "kind": "database",
-            "relative_path": "aerodoc_package.db",
-            "sha256": "562fb99417e384625566b5aa88f850dcb2a8489b1ffcbe4d2ecc46f2f0f48f4a",
-            "size_bytes": 506740736
-          },
-          "docs": {
-            "docs_manifest_hash": "a407574397124406b15f8d07fc37d05a9218ee7af3e9daa009b56d466ec756f0",
-            "file_count": 707,
-            "kind": "docs",
-            "manual_count": 6
-          },
-          "figure_assets": {
-            "content_hash": "ef3c73359ca15d49a4ae05854a0b060fe43ea93adc2190ed03b78674a488bc1f",
-            "file_count": 46041,
-            "kind": "figure_assets",
-            "relative_path": "figure_assets",
-            "size_bytes": 8934157743
+            "kind": "database_archive",
+            "archive_name": "database.schema_v6_app_ready_full.zip",
+            "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/database.schema_v6_app_ready_full.zip",
+            "relative_path": "database.schema_v6_app_ready_full.zip",
+            "sha256": "163f320a2a5f593d641e6216d3e2cf0246b9609e34e5b6818b44fa4029d4dea3",
+            "size_bytes": 247167805,
+            "database_file": "schema_v6_app_ready_full.db",
+            "database_sha256": "83045504bdd4a748055b5f02bb67ce94fed3e046940adbcb4dd9a685cfb957ed",
+            "database_size_bytes": 2068058112,
+            "schema_kind": "db_only_schema_v6",
+            "schema_version": 6,
+            "quick_check": "ok",
+            "search_backend": "basic_sqlite",
+            "fts5_enabled": false
           }
         },
-        "generated_at_utc": "2026-04-13T11:21:56+00:00",
-        "manifest": {
-          "aircraft_code": "B737",
-          "base_full_version": "2026.04.13.b737.cleanregen.1",
-          "changed_components": [
-            "database",
-            "docs",
-            "figure_assets"
-          ],
-          "components": {
-            "database": {
-              "kind": "database",
-              "relative_path": "aerodoc_package.db",
-              "sha256": "562fb99417e384625566b5aa88f850dcb2a8489b1ffcbe4d2ecc46f2f0f48f4a",
-              "size_bytes": 506740736
-            },
-            "docs": {
-              "docs_manifest_hash": "a407574397124406b15f8d07fc37d05a9218ee7af3e9daa009b56d466ec756f0",
-              "file_count": 707,
-              "kind": "docs",
-              "manual_count": 6
-            },
-            "figure_assets": {
-              "content_hash": "ef3c73359ca15d49a4ae05854a0b060fe43ea93adc2190ed03b78674a488bc1f",
-              "file_count": 46041,
-              "kind": "figure_assets",
-              "relative_path": "figure_assets",
-              "size_bytes": 8934157743
-            }
-          },
-          "generated_at_utc": "2026-04-13T11:21:56+00:00",
-          "manifest_updated_at_utc": "2026-04-13T16:11:55+00:00",
-          "operator_id": "demo",
-          "operator_name": "B737",
-          "package_family_id": "demo__b737",
-          "package_id": "demo__b737",
-          "package_version": "2026.04.13.b737.cleanregen.1",
-          "release_asset_max_bytes": 2040109465,
-          "release_assets": {
-            "database": [
-              {
-                "archive_name": "database.aerodoc_package.db",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/database.aerodoc_package.db",
-                "file_count": 1,
-                "relative_path": "database.aerodoc_package.db",
-                "sha256": "562fb99417e384625566b5aa88f850dcb2a8489b1ffcbe4d2ecc46f2f0f48f4a",
-                "size_bytes": 506740736
-              }
-            ],
-            "docs": [
-              {
-                "archive_name": "docs.aipc.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.aipc.zip",
-                "file_count": 511,
-                "relative_path": "docs.aipc.zip",
-                "sha256": "ead6798ff6df9adfc07cc836456b0b6c431bd4c676dc51214300f4b9c61a6f68",
-                "size_bytes": 795627976
-              },
-              {
-                "archive_name": "docs.amm.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.amm.zip",
-                "file_count": 49,
-                "relative_path": "docs.amm.zip",
-                "sha256": "4d74e0af46d8793235f35738f19eb36026abbffc4818377f009420c4ce959bef",
-                "size_bytes": 720794900
-              },
-              {
-                "archive_name": "docs.fim.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.fim.zip",
-                "file_count": 33,
-                "relative_path": "docs.fim.zip",
-                "sha256": "4464ffd1486aced27c568cf039296d5a034a73bbe9920ea0d816b6638f3b5cb0",
-                "size_bytes": 76310754
-              },
-              {
-                "archive_name": "docs.ssm.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.ssm.zip",
-                "file_count": 33,
-                "relative_path": "docs.ssm.zip",
-                "sha256": "52bd65342cc03ce020985312163401652b9bbbc39b4af073404334eef5ceb52a",
-                "size_bytes": 98498542
-              },
-              {
-                "archive_name": "docs.swpm.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.swpm.zip",
-                "file_count": 38,
-                "relative_path": "docs.swpm.zip",
-                "sha256": "2e2840af783fbe9692960cdc66240e8f3c9dc0fe9a62898f419e5a5a0c7691fd",
-                "size_bytes": 66681455
-              },
-              {
-                "archive_name": "docs.wdm.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.wdm.zip",
-                "file_count": 43,
-                "relative_path": "docs.wdm.zip",
-                "sha256": "a495054c87d0828077d5ea33cd50ee6f8a9f3a07418a0e9dab1369915a03e7b1",
-                "size_bytes": 108103949
-              }
-            ],
-            "figure_assets": [
-              {
-                "archive_name": "figure_assets.aipc.part001.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.aipc.part001.zip",
-                "file_count": 10734,
-                "relative_path": "figure_assets.aipc.part001.zip",
-                "sha256": "eff29deca8fade1ebf52ba4cbefdb0f9460b5ccd9bd843ffbb4a81e6d6ea224f",
-                "size_bytes": 1958439832
-              },
-              {
-                "archive_name": "figure_assets.aipc.part002.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.aipc.part002.zip",
-                "file_count": 11007,
-                "relative_path": "figure_assets.aipc.part002.zip",
-                "sha256": "118530f4b312bcae64c2b335f101a956591796e8feafc42b3eaf75902259e13d",
-                "size_bytes": 1958360358
-              },
-              {
-                "archive_name": "figure_assets.aipc.part003.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.aipc.part003.zip",
-                "file_count": 10704,
-                "relative_path": "figure_assets.aipc.part003.zip",
-                "sha256": "968066f634da5384134d9e5564be309197fc05a59954351653d88a1580bbd254",
-                "size_bytes": 1961852578
-              },
-              {
-                "archive_name": "figure_assets.aipc.part004.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.aipc.part004.zip",
-                "file_count": 1352,
-                "relative_path": "figure_assets.aipc.part004.zip",
-                "sha256": "f4b340bdc3aefcad3f8c9c3fa2793ac23e827a28ae47b0c400aea6bda6aefbc1",
-                "size_bytes": 284302829
-              },
-              {
-                "archive_name": "figure_assets.amm.part001.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.amm.part001.zip",
-                "file_count": 9744,
-                "relative_path": "figure_assets.amm.part001.zip",
-                "sha256": "119955f5f27644acc43498c36bc0d2b5449893ee0bedb18a36faaa7604f37c55",
-                "size_bytes": 1976616253
-              },
-              {
-                "archive_name": "figure_assets.amm.part002.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.amm.part002.zip",
-                "file_count": 2035,
-                "relative_path": "figure_assets.amm.part002.zip",
-                "sha256": "59dcbb67b357b4c5a6ca9aaa0d2d39dadcf9cd36629b2160aa8ccd9606a00327",
-                "size_bytes": 375928430
-              },
-              {
-                "archive_name": "figure_assets.fim_task_support.zip",
-                "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.fim_task_support.zip",
-                "file_count": 465,
-                "relative_path": "figure_assets.fim_task_support.zip",
-                "sha256": "76a522aab462fb7550783ad66628e6e1a064b119dcb3bd322403c5a83465236c",
-                "size_bytes": 85067170
-              }
-            ]
-          },
-          "release_repository": "engineerlogger-spec/aerodoc-packages",
-          "release_scope": "full",
-          "release_tag": "2026.04.13.b737.cleanregen.1",
-          "update_manifest_version": 2
-        },
-        "manifest_path": "2026.04.13.b737.cleanregen.1/aerodoc_package.json",
-        "manifest_updated_at_utc": "2026-04-13T16:11:55+00:00",
-        "manifest_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/aerodoc_package.json",
-        "operator_id": "demo",
-        "operator_name": "B737",
-        "package_family_id": "demo__b737",
-        "package_id": "demo__b737",
-        "package_version": "2026.04.13.b737.cleanregen.1",
-        "release_asset_max_bytes": 2040109465,
         "release_assets": {
           "database": [
             {
-              "archive_name": "database.aerodoc_package.db",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/database.aerodoc_package.db",
-              "file_count": 1,
-              "relative_path": "database.aerodoc_package.db",
-              "sha256": "562fb99417e384625566b5aa88f850dcb2a8489b1ffcbe4d2ecc46f2f0f48f4a",
-              "size_bytes": 506740736
-            }
-          ],
-          "docs": [
-            {
-              "archive_name": "docs.aipc.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.aipc.zip",
-              "file_count": 511,
-              "relative_path": "docs.aipc.zip",
-              "sha256": "ead6798ff6df9adfc07cc836456b0b6c431bd4c676dc51214300f4b9c61a6f68",
-              "size_bytes": 795627976
-            },
-            {
-              "archive_name": "docs.amm.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.amm.zip",
-              "file_count": 49,
-              "relative_path": "docs.amm.zip",
-              "sha256": "4d74e0af46d8793235f35738f19eb36026abbffc4818377f009420c4ce959bef",
-              "size_bytes": 720794900
-            },
-            {
-              "archive_name": "docs.fim.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.fim.zip",
-              "file_count": 33,
-              "relative_path": "docs.fim.zip",
-              "sha256": "4464ffd1486aced27c568cf039296d5a034a73bbe9920ea0d816b6638f3b5cb0",
-              "size_bytes": 76310754
-            },
-            {
-              "archive_name": "docs.ssm.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.ssm.zip",
-              "file_count": 33,
-              "relative_path": "docs.ssm.zip",
-              "sha256": "52bd65342cc03ce020985312163401652b9bbbc39b4af073404334eef5ceb52a",
-              "size_bytes": 98498542
-            },
-            {
-              "archive_name": "docs.swpm.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.swpm.zip",
-              "file_count": 38,
-              "relative_path": "docs.swpm.zip",
-              "sha256": "2e2840af783fbe9692960cdc66240e8f3c9dc0fe9a62898f419e5a5a0c7691fd",
-              "size_bytes": 66681455
-            },
-            {
-              "archive_name": "docs.wdm.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/docs.wdm.zip",
-              "file_count": 43,
-              "relative_path": "docs.wdm.zip",
-              "sha256": "a495054c87d0828077d5ea33cd50ee6f8a9f3a07418a0e9dab1369915a03e7b1",
-              "size_bytes": 108103949
-            }
-          ],
-          "figure_assets": [
-            {
-              "archive_name": "figure_assets.aipc.part001.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.aipc.part001.zip",
-              "file_count": 10734,
-              "relative_path": "figure_assets.aipc.part001.zip",
-              "sha256": "eff29deca8fade1ebf52ba4cbefdb0f9460b5ccd9bd843ffbb4a81e6d6ea224f",
-              "size_bytes": 1958439832
-            },
-            {
-              "archive_name": "figure_assets.aipc.part002.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.aipc.part002.zip",
-              "file_count": 11007,
-              "relative_path": "figure_assets.aipc.part002.zip",
-              "sha256": "118530f4b312bcae64c2b335f101a956591796e8feafc42b3eaf75902259e13d",
-              "size_bytes": 1958360358
-            },
-            {
-              "archive_name": "figure_assets.aipc.part003.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.aipc.part003.zip",
-              "file_count": 10704,
-              "relative_path": "figure_assets.aipc.part003.zip",
-              "sha256": "968066f634da5384134d9e5564be309197fc05a59954351653d88a1580bbd254",
-              "size_bytes": 1961852578
-            },
-            {
-              "archive_name": "figure_assets.aipc.part004.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.aipc.part004.zip",
-              "file_count": 1352,
-              "relative_path": "figure_assets.aipc.part004.zip",
-              "sha256": "f4b340bdc3aefcad3f8c9c3fa2793ac23e827a28ae47b0c400aea6bda6aefbc1",
-              "size_bytes": 284302829
-            },
-            {
-              "archive_name": "figure_assets.amm.part001.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.amm.part001.zip",
-              "file_count": 9744,
-              "relative_path": "figure_assets.amm.part001.zip",
-              "sha256": "119955f5f27644acc43498c36bc0d2b5449893ee0bedb18a36faaa7604f37c55",
-              "size_bytes": 1976616253
-            },
-            {
-              "archive_name": "figure_assets.amm.part002.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.amm.part002.zip",
-              "file_count": 2035,
-              "relative_path": "figure_assets.amm.part002.zip",
-              "sha256": "59dcbb67b357b4c5a6ca9aaa0d2d39dadcf9cd36629b2160aa8ccd9606a00327",
-              "size_bytes": 375928430
-            },
-            {
-              "archive_name": "figure_assets.fim_task_support.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.04.13.b737.cleanregen.1/figure_assets.fim_task_support.zip",
-              "file_count": 465,
-              "relative_path": "figure_assets.fim_task_support.zip",
-              "sha256": "76a522aab462fb7550783ad66628e6e1a064b119dcb3bd322403c5a83465236c",
-              "size_bytes": 85067170
+              "kind": "database_archive",
+              "archive_name": "database.schema_v6_app_ready_full.zip",
+              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/database.schema_v6_app_ready_full.zip",
+              "relative_path": "database.schema_v6_app_ready_full.zip",
+              "sha256": "163f320a2a5f593d641e6216d3e2cf0246b9609e34e5b6818b44fa4029d4dea3",
+              "size_bytes": 247167805,
+              "database_file": "schema_v6_app_ready_full.db",
+              "database_sha256": "83045504bdd4a748055b5f02bb67ce94fed3e046940adbcb4dd9a685cfb957ed",
+              "database_size_bytes": 2068058112,
+              "schema_kind": "db_only_schema_v6",
+              "schema_version": 6,
+              "quick_check": "ok",
+              "search_backend": "basic_sqlite",
+              "fts5_enabled": false
             }
           ]
-        },
-        "release_repository": "engineerlogger-spec/aerodoc-packages",
-        "release_scope": "full",
-        "release_tag": "2026.04.13.b737.cleanregen.1",
-        "update_manifest_version": 2
+        }
       },
-      "operator_id": "demo",
-      "operator_name": "B737",
-      "package_family_id": "demo__b737"
+      "manifest_path": "2026.05.08.b737-89.schema-v6.app-ready.1/aerodoc_package.json",
+      "manifest_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/aerodoc_package.json"
     }
-  ],
-  "family_count": 1,
-  "generated_at_utc": "2026-04-13T21:04:25+00:00",
-  "update_catalog_version": 2
+  ]
 }
