@@ -1,122 +1,8 @@
 {
   "update_catalog_version": 4,
   "generated_at_utc": "2026-05-30T00:43:45.113191+00:00",
-  "family_count": 2,
+  "family_count": 1,
   "families": [
-    {
-      "package_family_id": "air_algerie_b737_89",
-      "operator_id": "air_algerie",
-      "operator_name": "Air Algerie",
-      "aircraft_code": "B737-8/9",
-      "latest_schema_v6_database": {
-        "update_manifest_version": 3,
-        "package_kind": "db_only_schema_v6",
-        "package_family_id": "air_algerie_b737_89",
-        "package_id": "air_algerie_b737_89_schema_v6",
-        "package_version": "2026.05.08.b737-89.schema-v6.app-ready.1",
-        "operator_id": "air_algerie",
-        "operator_name": "Air Algerie",
-        "aircraft_code": "B737-8/9",
-        "release_scope": "database",
-        "release_repository": "engineerlogger-spec/aerodoc-packages",
-        "release_tag": "2026.05.08.b737-89.schema-v6.app-ready.1",
-        "generated_at_utc": "2026-05-09T16:44:26.7158094Z",
-        "db_created_at_local": "2026-05-08T23:23:51",
-        "components": {
-          "database": {
-            "kind": "database_archive",
-            "archive_name": "database.schema_v6_app_ready_full.zip",
-            "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/database.schema_v6_app_ready_full.zip",
-            "relative_path": "database.schema_v6_app_ready_full.zip",
-            "sha256": "163f320a2a5f593d641e6216d3e2cf0246b9609e34e5b6818b44fa4029d4dea3",
-            "size_bytes": 247167805,
-            "database_file": "schema_v6_app_ready_full.db",
-            "database_sha256": "83045504bdd4a748055b5f02bb67ce94fed3e046940adbcb4dd9a685cfb957ed",
-            "database_size_bytes": 2068058112,
-            "schema_kind": "db_only_schema_v6",
-            "schema_version": 6,
-            "quick_check": "ok",
-            "search_backend": "basic_sqlite",
-            "fts5_enabled": false
-          }
-        },
-        "release_assets": {
-          "database": [
-            {
-              "kind": "database_archive",
-              "archive_name": "database.schema_v6_app_ready_full.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/database.schema_v6_app_ready_full.zip",
-              "relative_path": "database.schema_v6_app_ready_full.zip",
-              "sha256": "163f320a2a5f593d641e6216d3e2cf0246b9609e34e5b6818b44fa4029d4dea3",
-              "size_bytes": 247167805,
-              "database_file": "schema_v6_app_ready_full.db",
-              "database_sha256": "83045504bdd4a748055b5f02bb67ce94fed3e046940adbcb4dd9a685cfb957ed",
-              "database_size_bytes": 2068058112,
-              "schema_kind": "db_only_schema_v6",
-              "schema_version": 6,
-              "quick_check": "ok",
-              "search_backend": "basic_sqlite",
-              "fts5_enabled": false
-            }
-          ]
-        }
-      },
-      "latest_database": {
-        "update_manifest_version": 3,
-        "package_kind": "db_only_schema_v6",
-        "package_family_id": "air_algerie_b737_89",
-        "package_id": "air_algerie_b737_89_schema_v6",
-        "package_version": "2026.05.08.b737-89.schema-v6.app-ready.1",
-        "operator_id": "air_algerie",
-        "operator_name": "Air Algerie",
-        "aircraft_code": "B737-8/9",
-        "release_scope": "database",
-        "release_repository": "engineerlogger-spec/aerodoc-packages",
-        "release_tag": "2026.05.08.b737-89.schema-v6.app-ready.1",
-        "generated_at_utc": "2026-05-09T16:44:26.7158094Z",
-        "db_created_at_local": "2026-05-08T23:23:51",
-        "components": {
-          "database": {
-            "kind": "database_archive",
-            "archive_name": "database.schema_v6_app_ready_full.zip",
-            "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/database.schema_v6_app_ready_full.zip",
-            "relative_path": "database.schema_v6_app_ready_full.zip",
-            "sha256": "163f320a2a5f593d641e6216d3e2cf0246b9609e34e5b6818b44fa4029d4dea3",
-            "size_bytes": 247167805,
-            "database_file": "schema_v6_app_ready_full.db",
-            "database_sha256": "83045504bdd4a748055b5f02bb67ce94fed3e046940adbcb4dd9a685cfb957ed",
-            "database_size_bytes": 2068058112,
-            "schema_kind": "db_only_schema_v6",
-            "schema_version": 6,
-            "quick_check": "ok",
-            "search_backend": "basic_sqlite",
-            "fts5_enabled": false
-          }
-        },
-        "release_assets": {
-          "database": [
-            {
-              "kind": "database_archive",
-              "archive_name": "database.schema_v6_app_ready_full.zip",
-              "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/database.schema_v6_app_ready_full.zip",
-              "relative_path": "database.schema_v6_app_ready_full.zip",
-              "sha256": "163f320a2a5f593d641e6216d3e2cf0246b9609e34e5b6818b44fa4029d4dea3",
-              "size_bytes": 247167805,
-              "database_file": "schema_v6_app_ready_full.db",
-              "database_sha256": "83045504bdd4a748055b5f02bb67ce94fed3e046940adbcb4dd9a685cfb957ed",
-              "database_size_bytes": 2068058112,
-              "schema_kind": "db_only_schema_v6",
-              "schema_version": 6,
-              "quick_check": "ok",
-              "search_backend": "basic_sqlite",
-              "fts5_enabled": false
-            }
-          ]
-        }
-      },
-      "manifest_path": "2026.05.08.b737-89.schema-v6.app-ready.1/aerodoc_package.json",
-      "manifest_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.08.b737-89.schema-v6.app-ready.1/aerodoc_package.json"
-    },
     {
       "package_family_id": "air-algerie-b737-89-schema-v6",
       "operator_name": "",
@@ -126,7 +12,7 @@
         "package_kind": "schema_v6_documentation_package",
         "package_family_id": "air-algerie-b737-89-schema-v6",
         "package_id": "air-algerie-b737-89-schema-v6",
-        "package_version": "2026.05.28-1949",
+        "package_version": "2026.05.30-0000",
         "operator_name": "",
         "aircraft_code": "",
         "release_scope": "full",
@@ -193,7 +79,7 @@
         "package_kind": "schema_v6_documentation_package",
         "package_family_id": "air-algerie-b737-89-schema-v6",
         "package_id": "air-algerie-b737-89-schema-v6",
-        "package_version": "2026.05.28-1949",
+        "package_version": "2026.05.30-0000",
         "operator_name": "",
         "aircraft_code": "",
         "release_scope": "full",
