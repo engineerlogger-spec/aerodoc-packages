@@ -184,7 +184,9 @@
             "figure_assets_relative_path": "figure_assets",
             "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.28-1949/figure_assets.tar.zst"
           }
-        }
+        },
+        "label": "Air Algerie B737-89 Schema v6",
+        "display_name": "Air Algerie B737-89 Schema v6"
       },
       "latest_schema_v6_database": {
         "update_manifest_version": 4,
@@ -249,7 +251,9 @@
             "figure_assets_relative_path": "figure_assets",
             "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.05.28-1949/figure_assets.tar.zst"
           }
-        }
+        },
+        "label": "Air Algerie B737-89 Schema v6",
+        "display_name": "Air Algerie B737-89 Schema v6"
       }
     }
   ]
