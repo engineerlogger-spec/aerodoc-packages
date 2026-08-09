@@ -1,6 +1,6 @@
 {
   "update_catalog_version": 4,
-  "generated_at_utc": "2026-08-09T22:08:50.840350+00:00",
+  "generated_at_utc": "2026-08-09T22:44:42.982876+00:00",
   "family_count": 1,
   "families": [
     {
@@ -11,7 +11,9 @@
         "update_manifest_version": 4,
         "package_kind": "schema_v6_documentation_package",
         "package_family_id": "air-algerie-b737-89",
-        "supersedes_package_ids": [],
+        "supersedes_package_ids": [
+          "air-algerie-b737-89-schema-v6"
+        ],
         "package_id": "air-algerie-b737-89",
         "package_version": "2026.08.09-2242",
         "label": "Air Alg\u00e9rie B737-89",
@@ -21,7 +23,7 @@
         "release_scope": "full",
         "release_repository": "engineerlogger-spec/aerodoc-packages",
         "release_tag": "2026.08.09-2242",
-        "generated_at_utc": "2026-08-09T22:08:49.382432+00:00",
+        "generated_at_utc": "2026-08-09T22:44:41.552828+00:00",
         "components": {
           "database": {
             "kind": "database_archive",
@@ -76,7 +78,9 @@
         "update_manifest_version": 4,
         "package_kind": "schema_v6_documentation_package",
         "package_family_id": "air-algerie-b737-89",
-        "supersedes_package_ids": [],
+        "supersedes_package_ids": [
+          "air-algerie-b737-89-schema-v6"
+        ],
         "package_id": "air-algerie-b737-89",
         "package_version": "2026.08.09-2242",
         "label": "Air Alg\u00e9rie B737-89",
@@ -86,7 +90,7 @@
         "release_scope": "full",
         "release_repository": "engineerlogger-spec/aerodoc-packages",
         "release_tag": "2026.08.09-2242",
-        "generated_at_utc": "2026-08-09T22:08:49.382432+00:00",
+        "generated_at_utc": "2026-08-09T22:44:41.552828+00:00",
         "components": {
           "database": {
             "kind": "database_archive",
@@ -137,7 +141,9 @@
           }
         }
       },
-      "supersedes_package_ids": []
+      "supersedes_package_ids": [
+        "air-algerie-b737-89-schema-v6"
+      ]
     }
   ]
 }
