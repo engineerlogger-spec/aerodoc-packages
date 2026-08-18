@@ -1,6 +1,6 @@
 {
   "update_catalog_version": 4,
-  "generated_at_utc": "2026-08-17T14:20:02.652232+00:00",
+  "generated_at_utc": "2026-08-18T03:25:56.141445+00:00",
   "family_count": 1,
   "families": [
     {
@@ -16,69 +16,69 @@
           "air-algerie-b737-89-schema_v6"
         ],
         "package_id": "air-algerie-b737-89",
-        "package_version": "2026.08.17-1514",
+        "package_version": "2026.08.17-1911",
         "label": "Air Alg\u00e9rie B737-89",
         "display_name": "Air Alg\u00e9rie B737-89",
         "operator_name": "",
         "aircraft_code": "",
         "release_scope": "full",
         "release_repository": "engineerlogger-spec/aerodoc-packages",
-        "release_tag": "2026.08.17-1514",
-        "generated_at_utc": "2026-08-17T14:20:00.003695+00:00",
+        "release_tag": "2026.08.17-1911",
+        "generated_at_utc": "2026-08-18T03:25:54.466464+00:00",
         "components": {
           "database": {
             "kind": "database_archive",
             "archive_name": "database.aeropkg.zip",
-            "sha256": "759bce4c37b9c7335af7057aae9692cb4a70f02a32c4b8c13e41479a183d44bf",
-            "size_bytes": 8388287204,
+            "sha256": "0a6762147ecd771b7e722c60462f5707d375b081fc27a9aefd8a74b700c4e820",
+            "size_bytes": 8534852324,
             "database_file": "aerodoc_package.db",
-            "database_sha256": "408027684cf7d692cdaf8b698f49c81a59045f3da9220b478aaae729d20cd57a",
-            "database_size_bytes": 3338141696,
+            "database_sha256": "faa5eef83b25b781facb313e09e41a3a52aba4044ca30e0504e4e6ed8773f549",
+            "database_size_bytes": 3338162176,
             "figure_assets_file_count": 51063,
-            "docs_file_count": 191,
+            "docs_file_count": 229,
             "multipart_assets": {
               "kind": "concat",
-              "total_sha256": "759bce4c37b9c7335af7057aae9692cb4a70f02a32c4b8c13e41479a183d44bf",
-              "total_size_bytes": 8388287204,
+              "total_sha256": "0a6762147ecd771b7e722c60462f5707d375b081fc27a9aefd8a74b700c4e820",
+              "total_size_bytes": 8534852324,
               "parts": [
                 {
                   "index": 0,
                   "asset_name": "database.aeropkg.zip.part00",
                   "size_bytes": 2040109465,
-                  "sha256": "b2a28b0d204494f2c1f89b6ca452c7d45abc7ae824b85159b2ea86d3554ede8e",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part00"
+                  "sha256": "64af6dac6957fa064fe767a286080b5586e002b20bfeb5d8f016a8c99e215444",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part00"
                 },
                 {
                   "index": 1,
                   "asset_name": "database.aeropkg.zip.part01",
                   "size_bytes": 2040109465,
-                  "sha256": "3c5057308951c15e787b02d4dd83f852ddac89c5d40c9b2934efb07ea7138dcb",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part01"
+                  "sha256": "ef90d67d3f3b955f5aeca52d42968a85161cf2df142723b844a36025fa7fd34e",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part01"
                 },
                 {
                   "index": 2,
                   "asset_name": "database.aeropkg.zip.part02",
                   "size_bytes": 2040109465,
-                  "sha256": "636d7f47fc95a3af7311e98330fa0ef9d5c1b2f15e987f37e50704cd0b38b13a",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part02"
+                  "sha256": "5b8127bab8519197420b810bc99a6309e336ef037a2f7116b82a2e8a39e8eb76",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part02"
                 },
                 {
                   "index": 3,
                   "asset_name": "database.aeropkg.zip.part03",
                   "size_bytes": 2040109465,
-                  "sha256": "5cab3a9877a7508e2c70602b21e3d62f904128774144c5498a21dc3aaad1fbf2",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part03"
+                  "sha256": "3ae2b6ed3ca83bf43963d6644c00a7881a7d2feba5478876424ea772d02e0855",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part03"
                 },
                 {
                   "index": 4,
                   "asset_name": "database.aeropkg.zip.part04",
-                  "size_bytes": 227849344,
-                  "sha256": "6c8eeefcb9b115bb4e20ef7d51a1e2a13a62cc51389925dd0fce890c49f2ea35",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part04"
+                  "size_bytes": 374414464,
+                  "sha256": "0b1f8986aeabe43179a7354bcd918add683a0ab47ce664b84dca2b9f24b431ad",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part04"
                 }
               ]
             },
-            "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part00"
+            "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part00"
           }
         }
       },
@@ -162,69 +162,69 @@
           "air-algerie-b737-89-schema_v6"
         ],
         "package_id": "air-algerie-b737-89",
-        "package_version": "2026.08.17-1514",
+        "package_version": "2026.08.17-1911",
         "label": "Air Alg\u00e9rie B737-89",
         "display_name": "Air Alg\u00e9rie B737-89",
         "operator_name": "",
         "aircraft_code": "",
         "release_scope": "full",
         "release_repository": "engineerlogger-spec/aerodoc-packages",
-        "release_tag": "2026.08.17-1514",
-        "generated_at_utc": "2026-08-17T14:20:00.003695+00:00",
+        "release_tag": "2026.08.17-1911",
+        "generated_at_utc": "2026-08-18T03:25:54.466464+00:00",
         "components": {
           "database": {
             "kind": "database_archive",
             "archive_name": "database.aeropkg.zip",
-            "sha256": "759bce4c37b9c7335af7057aae9692cb4a70f02a32c4b8c13e41479a183d44bf",
-            "size_bytes": 8388287204,
+            "sha256": "0a6762147ecd771b7e722c60462f5707d375b081fc27a9aefd8a74b700c4e820",
+            "size_bytes": 8534852324,
             "database_file": "aerodoc_package.db",
-            "database_sha256": "408027684cf7d692cdaf8b698f49c81a59045f3da9220b478aaae729d20cd57a",
-            "database_size_bytes": 3338141696,
+            "database_sha256": "faa5eef83b25b781facb313e09e41a3a52aba4044ca30e0504e4e6ed8773f549",
+            "database_size_bytes": 3338162176,
             "figure_assets_file_count": 51063,
-            "docs_file_count": 191,
+            "docs_file_count": 229,
             "multipart_assets": {
               "kind": "concat",
-              "total_sha256": "759bce4c37b9c7335af7057aae9692cb4a70f02a32c4b8c13e41479a183d44bf",
-              "total_size_bytes": 8388287204,
+              "total_sha256": "0a6762147ecd771b7e722c60462f5707d375b081fc27a9aefd8a74b700c4e820",
+              "total_size_bytes": 8534852324,
               "parts": [
                 {
                   "index": 0,
                   "asset_name": "database.aeropkg.zip.part00",
                   "size_bytes": 2040109465,
-                  "sha256": "b2a28b0d204494f2c1f89b6ca452c7d45abc7ae824b85159b2ea86d3554ede8e",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part00"
+                  "sha256": "64af6dac6957fa064fe767a286080b5586e002b20bfeb5d8f016a8c99e215444",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part00"
                 },
                 {
                   "index": 1,
                   "asset_name": "database.aeropkg.zip.part01",
                   "size_bytes": 2040109465,
-                  "sha256": "3c5057308951c15e787b02d4dd83f852ddac89c5d40c9b2934efb07ea7138dcb",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part01"
+                  "sha256": "ef90d67d3f3b955f5aeca52d42968a85161cf2df142723b844a36025fa7fd34e",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part01"
                 },
                 {
                   "index": 2,
                   "asset_name": "database.aeropkg.zip.part02",
                   "size_bytes": 2040109465,
-                  "sha256": "636d7f47fc95a3af7311e98330fa0ef9d5c1b2f15e987f37e50704cd0b38b13a",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part02"
+                  "sha256": "5b8127bab8519197420b810bc99a6309e336ef037a2f7116b82a2e8a39e8eb76",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part02"
                 },
                 {
                   "index": 3,
                   "asset_name": "database.aeropkg.zip.part03",
                   "size_bytes": 2040109465,
-                  "sha256": "5cab3a9877a7508e2c70602b21e3d62f904128774144c5498a21dc3aaad1fbf2",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part03"
+                  "sha256": "3ae2b6ed3ca83bf43963d6644c00a7881a7d2feba5478876424ea772d02e0855",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part03"
                 },
                 {
                   "index": 4,
                   "asset_name": "database.aeropkg.zip.part04",
-                  "size_bytes": 227849344,
-                  "sha256": "6c8eeefcb9b115bb4e20ef7d51a1e2a13a62cc51389925dd0fce890c49f2ea35",
-                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part04"
+                  "size_bytes": 374414464,
+                  "sha256": "0b1f8986aeabe43179a7354bcd918add683a0ab47ce664b84dca2b9f24b431ad",
+                  "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part04"
                 }
               ]
             },
-            "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1514/database.aeropkg.zip.part00"
+            "download_url": "https://github.com/engineerlogger-spec/aerodoc-packages/releases/download/2026.08.17-1911/database.aeropkg.zip.part00"
           }
         }
       }
