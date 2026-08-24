@@ -1,6 +1,6 @@
 {
   "update_catalog_version": 4,
-  "generated_at_utc": "2026-08-23T23:51:56.062112+00:00",
+  "generated_at_utc": "2026-08-24T00:44:01.398466+00:00",
   "family_count": 1,
   "families": [
     {
@@ -24,7 +24,7 @@
         "release_scope": "full",
         "release_repository": "engineerlogger-spec/aerodoc-packages",
         "release_tag": "2026.08.23-0105",
-        "generated_at_utc": "2026-08-23T23:51:54.481784+00:00",
+        "generated_at_utc": "2026-08-24T00:43:59.912261+00:00",
         "components": {
           "database": {
             "kind": "database_archive",
@@ -170,7 +170,7 @@
         "release_scope": "full",
         "release_repository": "engineerlogger-spec/aerodoc-packages",
         "release_tag": "2026.08.23-0105",
-        "generated_at_utc": "2026-08-23T23:51:54.481784+00:00",
+        "generated_at_utc": "2026-08-24T00:43:59.912261+00:00",
         "components": {
           "database": {
             "kind": "database_archive",
